@@ -6,14 +6,14 @@ Postmon is a social media application inspired by other platforms like TikTok, I
 
 To contribute to Postmon project follow these steps:
 
-- 1. **Clone the repository**............. <br />
+- **Clone the repository**............. <br />
 
 ```bash
 git clone https://github.com/PowerzinBR/postmon
 ```
 
-- 2. **Make your changes**............. Add a new feature or improve an existing functionality
-- 3. **Create a Pull Request**............. Submit your changes and wait for the review
+- **Make your changes**............. Add a new feature or improve an existing functionality
+- **Create a Pull Request**............. Submit your changes and wait for the review
 
 ## License
 
