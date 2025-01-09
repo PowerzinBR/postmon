@@ -8,7 +8,7 @@ export default function MainPage() {
       <View style={styles.mainContainer}>
         <AuthScreen />
       </View>
-      <StatusBar hidden translucent backgroundColor="transparent" />
+      <StatusBar hidden />
     </SafeAreaView>
   );
 }
