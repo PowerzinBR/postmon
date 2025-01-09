@@ -1,4 +1,4 @@
-import { SafeAreaView, StyleSheet, View } from "react-native";
+import { SafeAreaView, StatusBar, StyleSheet, View } from "react-native";
 
 import { AuthScreen } from "@/components/auth-screen";
 
@@ -8,6 +8,7 @@ export default function MainPage() {
       <View style={styles.mainContainer}>
         <AuthScreen />
       </View>
+      <StatusBar hidden translucent backgroundColor="transparent" />
     </SafeAreaView>
   );
 }
@@ -15,9 +16,10 @@ export default function MainPage() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: "#14181c",
+    backgroundColor: "#13131c",
   },
   mainContainer: {
-    margin: 24,
+    margin: 30,
+    marginBottom: 20,
   },
 });
