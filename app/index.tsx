@@ -1,10 +1,12 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, View } from "react-native";
+
+import { AuthScreen } from "@/components/auth-screen";
 
 export default function MainPage() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.mainContainer}>
-        <Text>Hello World</Text>
+        <AuthScreen />
       </View>
     </SafeAreaView>
   );
@@ -13,7 +15,7 @@ export default function MainPage() {
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: "red",
+    backgroundColor: "#14181c",
   },
   mainContainer: {
     margin: 24,
